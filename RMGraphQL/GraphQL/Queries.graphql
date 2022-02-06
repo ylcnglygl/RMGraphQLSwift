@@ -1,0 +1,9 @@
+
+query GetDatas{
+  characters{
+    results{
+      id
+      name
+    }
+  }
+}
