@@ -10,24 +10,65 @@
 		41425FC227AEB4B60036EB1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41425FC127AEB4B60036EB1D /* AppDelegate.swift */; };
 		41425FC427AEB4B60036EB1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41425FC327AEB4B60036EB1D /* SceneDelegate.swift */; };
 		41425FC627AEB4B60036EB1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41425FC527AEB4B60036EB1D /* ViewController.swift */; };
-		41425FC927AEB4B60036EB1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41425FC727AEB4B60036EB1D /* Main.storyboard */; };
 		41425FCB27AEB4B60036EB1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41425FCA27AEB4B60036EB1D /* Assets.xcassets */; };
 		41425FCE27AEB4B60036EB1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41425FCC27AEB4B60036EB1D /* LaunchScreen.storyboard */; };
+		41425FD627AEB5CE0036EB1D /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 41425FD527AEB5CE0036EB1D /* schema.json */; };
+		417D379527AFEB94005E26B1 /* RMGraphQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D379427AFEB94005E26B1 /* RMGraphQLTests.swift */; };
+		41F63BAA27AEBA9F00B59B18 /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 41F63BA927AEBA9F00B59B18 /* Queries.graphql */; };
+		41F63BAE27AEBD3F00B59B18 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F63BAD27AEBD3F00B59B18 /* API.swift */; };
+		41F63BB027AEBD9F00B59B18 /* Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F63BAF27AEBD9F00B59B18 /* Apollo.swift */; };
+		41F63BB327AECC4200B59B18 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 41F63BB227AECC4200B59B18 /* SnapKit */; };
+		41F63BB927AEE2C300B59B18 /* RMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F63BB827AEE2C300B59B18 /* RMViewModel.swift */; };
+		41F63BBB27AEF0FC00B59B18 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F63BBA27AEF0FC00B59B18 /* Extensions.swift */; };
+		41F63BBD27AEF35400B59B18 /* RMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F63BBC27AEF35400B59B18 /* RMTableViewCell.swift */; };
+		41F63BC027AEF45900B59B18 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 41F63BBF27AEF45900B59B18 /* AlamofireImage */; };
+		922B24E2BDDF554BB1334538 /* Pods_RMGraphQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2818AB5C57248851101927C0 /* Pods_RMGraphQL.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		417D379627AFEB94005E26B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41425FB627AEB4B60036EB1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41425FBD27AEB4B60036EB1D;
+			remoteInfo = RMGraphQL;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0B0333042327387948947D69 /* Pods-RMGraphQL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMGraphQL.debug.xcconfig"; path = "Target Support Files/Pods-RMGraphQL/Pods-RMGraphQL.debug.xcconfig"; sourceTree = "<group>"; };
+		2818AB5C57248851101927C0 /* Pods_RMGraphQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMGraphQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41425FBE27AEB4B60036EB1D /* RMGraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMGraphQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41425FC127AEB4B60036EB1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41425FC327AEB4B60036EB1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		41425FC527AEB4B60036EB1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41425FC827AEB4B60036EB1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41425FCA27AEB4B60036EB1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41425FCD27AEB4B60036EB1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41425FCF27AEB4B60036EB1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41425FD527AEB5CE0036EB1D /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		417D379227AFEB94005E26B1 /* RMGraphQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMGraphQLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417D379427AFEB94005E26B1 /* RMGraphQLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGraphQLTests.swift; sourceTree = "<group>"; };
+		41F63BA927AEBA9F00B59B18 /* Queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		41F63BAD27AEBD3F00B59B18 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		41F63BAF27AEBD9F00B59B18 /* Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo.swift; sourceTree = "<group>"; };
+		41F63BB827AEE2C300B59B18 /* RMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMViewModel.swift; sourceTree = "<group>"; };
+		41F63BBA27AEF0FC00B59B18 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		41F63BBC27AEF35400B59B18 /* RMTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMTableViewCell.swift; sourceTree = "<group>"; };
+		EE2A1319A6734E3BDA38DFE2 /* Pods-RMGraphQL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMGraphQL.release.xcconfig"; path = "Target Support Files/Pods-RMGraphQL/Pods-RMGraphQL.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		41425FBB27AEB4B60036EB1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922B24E2BDDF554BB1334538 /* Pods_RMGraphQL.framework in Frameworks */,
+				41F63BB327AECC4200B59B18 /* SnapKit in Frameworks */,
+				41F63BC027AEF45900B59B18 /* AlamofireImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417D378F27AFEB94005E26B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				41425FC027AEB4B60036EB1D /* RMGraphQL */,
+				417D379327AFEB94005E26B1 /* RMGraphQLTests */,
 				41425FBF27AEB4B60036EB1D /* Products */,
+				46DA6335430A23B22A056E38 /* Pods */,
+				C0BAC9F609367CA45477919E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				41425FBE27AEB4B60036EB1D /* RMGraphQL.app */,
+				417D379227AFEB94005E26B1 /* RMGraphQLTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +101,78 @@
 		41425FC027AEB4B60036EB1D /* RMGraphQL */ = {
 			isa = PBXGroup;
 			children = (
+				41F63BB627AECC6B00B59B18 /* ViewModel */,
+				41F63BB527AECC6200B59B18 /* ViewControllers */,
+				41F63BB427AECC5E00B59B18 /* View */,
+				41F63BA827AEBA8500B59B18 /* GraphQL */,
+				41425FD527AEB5CE0036EB1D /* schema.json */,
+				41F63BBA27AEF0FC00B59B18 /* Extensions.swift */,
 				41425FC127AEB4B60036EB1D /* AppDelegate.swift */,
 				41425FC327AEB4B60036EB1D /* SceneDelegate.swift */,
-				41425FC527AEB4B60036EB1D /* ViewController.swift */,
-				41425FC727AEB4B60036EB1D /* Main.storyboard */,
 				41425FCA27AEB4B60036EB1D /* Assets.xcassets */,
 				41425FCC27AEB4B60036EB1D /* LaunchScreen.storyboard */,
 				41425FCF27AEB4B60036EB1D /* Info.plist */,
 			);
 			path = RMGraphQL;
+			sourceTree = "<group>";
+		};
+		417D379327AFEB94005E26B1 /* RMGraphQLTests */ = {
+			isa = PBXGroup;
+			children = (
+				417D379427AFEB94005E26B1 /* RMGraphQLTests.swift */,
+			);
+			path = RMGraphQLTests;
+			sourceTree = "<group>";
+		};
+		41F63BA827AEBA8500B59B18 /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				41F63BAD27AEBD3F00B59B18 /* API.swift */,
+				41F63BA927AEBA9F00B59B18 /* Queries.graphql */,
+				41F63BAF27AEBD9F00B59B18 /* Apollo.swift */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		41F63BB427AECC5E00B59B18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41F63BBC27AEF35400B59B18 /* RMTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41F63BB527AECC6200B59B18 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				41425FC527AEB4B60036EB1D /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		41F63BB627AECC6B00B59B18 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				41F63BB827AEE2C300B59B18 /* RMViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		46DA6335430A23B22A056E38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B0333042327387948947D69 /* Pods-RMGraphQL.debug.xcconfig */,
+				EE2A1319A6734E3BDA38DFE2 /* Pods-RMGraphQL.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0BAC9F609367CA45477919E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2818AB5C57248851101927C0 /* Pods_RMGraphQL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,18 +182,43 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41425FD227AEB4B60036EB1D /* Build configuration list for PBXNativeTarget "RMGraphQL" */;
 			buildPhases = (
+				41F63BAC27AEBC2F00B59B18 /* Generate Apollo GraphQL API */,
+				540C1B7C8645A2F260FF2C91 /* [CP] Check Pods Manifest.lock */,
 				41425FBA27AEB4B60036EB1D /* Sources */,
 				41425FBB27AEB4B60036EB1D /* Frameworks */,
 				41425FBC27AEB4B60036EB1D /* Resources */,
+				3C0FEFB1DAFA8BAE296A8638 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RMGraphQL;
+			packageProductDependencies = (
+				41F63BB227AECC4200B59B18 /* SnapKit */,
+				41F63BBF27AEF45900B59B18 /* AlamofireImage */,
+			);
 			productName = RMGraphQL;
 			productReference = 41425FBE27AEB4B60036EB1D /* RMGraphQL.app */;
 			productType = "com.apple.product-type.application";
+		};
+		417D379127AFEB94005E26B1 /* RMGraphQLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417D379827AFEB94005E26B1 /* Build configuration list for PBXNativeTarget "RMGraphQLTests" */;
+			buildPhases = (
+				417D378E27AFEB94005E26B1 /* Sources */,
+				417D378F27AFEB94005E26B1 /* Frameworks */,
+				417D379027AFEB94005E26B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417D379727AFEB94005E26B1 /* PBXTargetDependency */,
+			);
+			name = RMGraphQLTests;
+			productName = RMGraphQLTests;
+			productReference = 417D379227AFEB94005E26B1 /* RMGraphQLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +233,10 @@
 					41425FBD27AEB4B60036EB1D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					417D379127AFEB94005E26B1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 41425FBD27AEB4B60036EB1D;
+					};
 				};
 			};
 			buildConfigurationList = 41425FB927AEB4B60036EB1D /* Build configuration list for PBXProject "RMGraphQL" */;
@@ -111,11 +248,16 @@
 				Base,
 			);
 			mainGroup = 41425FB527AEB4B60036EB1D;
+			packageReferences = (
+				41F63BB127AECC4200B59B18 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				41F63BBE27AEF45900B59B18 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 41425FBF27AEB4B60036EB1D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				41425FBD27AEB4B60036EB1D /* RMGraphQL */,
+				417D379127AFEB94005E26B1 /* RMGraphQLTests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,13 +267,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F63BAA27AEBA9F00B59B18 /* Queries.graphql in Resources */,
 				41425FCE27AEB4B60036EB1D /* LaunchScreen.storyboard in Resources */,
+				41425FD627AEB5CE0036EB1D /* schema.json in Resources */,
 				41425FCB27AEB4B60036EB1D /* Assets.xcassets in Resources */,
-				41425FC927AEB4B60036EB1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417D379027AFEB94005E26B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0FEFB1DAFA8BAE296A8638 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RMGraphQL/Pods-RMGraphQL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RMGraphQL/Pods-RMGraphQL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RMGraphQL/Pods-RMGraphQL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41F63BAC27AEBC2F00B59B18 /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Don't run this during index builds\nif [ $ACTION = \"indexbuild\" ]; then exit 0; fi\n\nSCRIPT_PATH=\"${PODS_ROOT}/Apollo/scripts\"\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" ./GraphQL/API.swift\n";
+		};
+		540C1B7C8645A2F260FF2C91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RMGraphQL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41425FBA27AEB4B60036EB1D /* Sources */ = {
@@ -140,21 +350,34 @@
 			files = (
 				41425FC627AEB4B60036EB1D /* ViewController.swift in Sources */,
 				41425FC227AEB4B60036EB1D /* AppDelegate.swift in Sources */,
+				41F63BBD27AEF35400B59B18 /* RMTableViewCell.swift in Sources */,
+				41F63BAE27AEBD3F00B59B18 /* API.swift in Sources */,
+				41F63BB927AEE2C300B59B18 /* RMViewModel.swift in Sources */,
 				41425FC427AEB4B60036EB1D /* SceneDelegate.swift in Sources */,
+				41F63BB027AEBD9F00B59B18 /* Apollo.swift in Sources */,
+				41F63BBB27AEF0FC00B59B18 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417D378E27AFEB94005E26B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417D379527AFEB94005E26B1 /* RMGraphQLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		41425FC727AEB4B60036EB1D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41425FC827AEB4B60036EB1D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		417D379727AFEB94005E26B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41425FBD27AEB4B60036EB1D /* RMGraphQL */;
+			targetProxy = 417D379627AFEB94005E26B1 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		41425FCC27AEB4B60036EB1D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +507,7 @@
 		};
 		41425FD327AEB4B60036EB1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0333042327387948947D69 /* Pods-RMGraphQL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +518,6 @@
 				INFOPLIST_FILE = RMGraphQL/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +535,7 @@
 		};
 		41425FD427AEB4B60036EB1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE2A1319A6734E3BDA38DFE2 /* Pods-RMGraphQL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +546,6 @@
 				INFOPLIST_FILE = RMGraphQL/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,6 +558,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		417D379927AFEB94005E26B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZZZSM83C5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.malozyali.RMGraphQLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RMGraphQL.app/RMGraphQL";
+			};
+			name = Debug;
+		};
+		417D379A27AFEB94005E26B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZZZSM83C5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.malozyali.RMGraphQLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RMGraphQL.app/RMGraphQL";
 			};
 			name = Release;
 		};
@@ -359,7 +618,48 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		417D379827AFEB94005E26B1 /* Build configuration list for PBXNativeTarget "RMGraphQLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417D379927AFEB94005E26B1 /* Debug */,
+				417D379A27AFEB94005E26B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41F63BB127AECC4200B59B18 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		41F63BBE27AEF45900B59B18 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41F63BB227AECC4200B59B18 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41F63BB127AECC4200B59B18 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		41F63BBF27AEF45900B59B18 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41F63BBE27AEF45900B59B18 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 41425FB627AEB4B60036EB1D /* Project object */;
 }

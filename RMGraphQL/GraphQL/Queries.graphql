@@ -1,9 +1,13 @@
-
-query GetDatas{
-  characters{
+query GetCharacter($name: String!, $page:Int){
+  characters(page:$page, filter: {
+    name: $name
+  }){
     results{
       id
       name
+      image
+      location{name}
     }
+    
   }
 }
